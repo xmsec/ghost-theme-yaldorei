@@ -1,6 +1,7 @@
 # Yaldorei
-A Simple And Elegant Ghost Theme Yadorei Modified From Kaldorei Which Derive From Default Theme Casper. **Most development was made by the former author**. Maybe the former author will update kaldorei soon and then I will also modify it. 
+A Simple And Elegant Ghost Theme Yadorei Modified From [Kaldorei](https://github.com/xiaoluoboding/ghost-theme-kaldorei) Which Derive From Default Theme Casper. **Most development was made by the former author**. Maybe the former author xiaoluoboding will update kaldorei soon and then I will also modify it. 
 
+Suport ghost 1.25.0
 # Preview
 ## Former
 ![img](assets/img/preview.png)
@@ -61,7 +62,7 @@ Then Modify it to be
         }
 ```
 At last, restart the ghost
-## About Modified Theme
+## About Modified Theme Yaldorei
 
 Modified theme support ghost 1.25.0     
 What is modified is as follows:    
@@ -69,17 +70,18 @@ What is modified is as follows:
 1. The nav's hight
 2. The footer's padding
 3. Tag clould in post page removed
-4. Post page's fence layout
+4. Post pages' fence layout
 5. Color simplified  
 6. Disqus removed & should modify Comments partial to use
 7. SOHU changyan used for comment
 8. CSS not mentioned above modified slightly
-9. Some author info
+9. Some author info removed
 
 Theme name was made by someone Yan DY I met before.
 
 ## Credit
 
+* [kaldorei](https://github.com/xiaoluoboding/ghost-theme-kaldorei)
 * [font-awesome](https://github.com/FortAwesome/Font-Awesome)
 * [bootstrap](https://github.com/twbs/bootstrap)
 * [highlight.js](https://github.com/isagalaev/highlight.js)
@@ -88,3 +90,4 @@ Theme name was made by someone Yan DY I met before.
 * [anijs](https://github.com/anijs/anijs)
 * [jquery.githubRepoWidget.js](https://github.com/JoelSutherland/GitHub-jQuery-Repo-Widget)
 * [fancyBox](https://github.com/fancyapps/fancyBox)
+
