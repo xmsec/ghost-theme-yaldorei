@@ -1,5 +1,5 @@
 # Yaldorei
-A Simple And Elegant Ghost Theme Yadorei Modified From Kaldorei Which Derive From Default Theme Casper. **Most development was made by the former author**. Maybe the former author will update kaldorei soon and then I will also modified it. 
+A Simple And Elegant Ghost Theme Yadorei Modified From Kaldorei Which Derive From Default Theme Casper. **Most development was made by the former author**. Maybe the former author will update kaldorei soon and then I will also modify it. 
 
 # Preview
 ## Former
