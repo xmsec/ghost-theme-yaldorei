@@ -1,0 +1,34 @@
+{
+    "name": "Yaldorei",
+    "description": "A Simple And Elegant Ghost Theme Modified From kaldorei Which Derive From Default Theme Casper",
+    "homepage": "https://github.com/xmsec/ghost-theme-yaldorei",
+    "version": "1.1.0",
+    "author": {
+        "name": "xmsec",
+        "email": "xmdonghao@gmail.com",
+        "url": "https://github.com/xmsec/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/xmsec/ghost-theme-yaldorei.git"
+    },
+    "bugs": {
+        "url": "https://github.com/xmsec/ghost-theme-yaldorei/issues"
+    },
+    "keywords": [
+        "simple",
+        "elegant",
+        "ghost",
+        "theme",
+        "kaldorei",
+        "ghost-theme"
+    ],
+    "engines": {
+        "ghost": ">=1.0.0",
+        "node": ">= 4"
+    },
+    "license": "MIT",
+    "config": {
+        "posts_per_page": 8
+    }
+}
