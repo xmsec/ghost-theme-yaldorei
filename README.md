@@ -40,7 +40,7 @@ Kaldorei用两种方法实现了标签云，方法参见[原作者博客](http:/
 Kaldorei优化了发布文章的时间展示，并汉化为中文，需要修改时间(date)助手，方法参见[原作者博客](http://xlbd.me/ghost-date-i18n/)。
 
 ## About Google AMP
-Ghost with something not set value may cause AMP image cover error.     
+Ghost with value not set may cause AMP image cover error.     
 What can be done is as follows:     
 In Helpers folder and helpers/ghost_head.js we can found:
 ```
