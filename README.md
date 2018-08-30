@@ -64,7 +64,7 @@ Then Modify it to be
 At last, restart the ghost
 ## About Modified Theme Yaldorei
 
-Modified theme support ghost 1.25.0     
+Modified theme support ghost 1.25.0 & ghost 2.0    
 What is modified is as follows:    
 
 1. The nav's hight
@@ -76,6 +76,7 @@ What is modified is as follows:
 7. SOHU changyan used for comment
 8. CSS not mentioned above modified slightly
 9. Some author info removed
+10. change the data creat_at in posts to changed_at
 
 Theme name was made by someone Yan DY I met before.
 
