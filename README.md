@@ -1,5 +1,5 @@
 # Yaldorei
-A Simple And Elegant Ghost Theme Yadorei **Modified** From [Kaldorei](https://github.com/xiaoluoboding/ghost-theme-kaldorei) Which Derive From Default Theme Casper. **Most development was made by the former author**. Maybe the former author xiaoluoboding will update kaldorei soon and then I will also modify it to make it more simple. 
+A Simple And Elegant Ghost Theme Yadorei **Modified** From [Kaldorei](https://github.com/xiaoluoboding/ghost-theme-kaldorei) Which Derive From Default Theme Casper. **Most development was made by the former author**. Maybe the former author xiaoluoboding will update kaldorei soon and then I will also modify it to make it more simple. 
 
 Support ghost 2.x
 # Preview
