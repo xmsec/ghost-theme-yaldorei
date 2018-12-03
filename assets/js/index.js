@@ -1,5 +1,6 @@
 /**
  * Main JS file for kaldorei behaviours
+ * @author: xiaoluoboding
  */
 
 /* globals jQuery, document */
@@ -20,7 +21,7 @@
         });
 
         $(window).scroll(function() {
-            var scrollerToTop = $('.backTop');
+            var scrollerToTop = $('.back-top');
             var scrollerTOC = $('.widget-toc');
             document.documentElement.scrollTop + document.body.scrollTop > 200 ?
                 scrollerToTop.fadeIn() :
@@ -30,13 +31,14 @@
                 scrollerTOC.removeClass("widget-toc-fixed");
         });
 
-        // #backTop Button Event
+        // #back-top Button Event
         $("#backTop").on("click", function() {
             scrollToTop();
         });
 
         // highlight config
         hljs.initHighlightingOnLoad();
+        // dynamicInjectHljsStyle()
 
         // numbering for pre>code blocks
         $(function() {
@@ -50,16 +52,17 @@
             });
         });
 
-        var toc = $('.toc');
         // toc config
+        var toc = $('.toc');
         toc.toc({
             content: ".post-content",
-            headings: "h2,h3,h4,h5"
+            headings: "h2,h3,h4,h5",
+            highlightOffset: 100
         });
 
         if (toc.children().length == 0) $(".widget-toc").hide();
 
-        var tocHieght = toc.height();
+        var tocHieght = toc.height() ;
         var tocFixedHeight = $(window).height() - 192;
         tocHieght > tocFixedHeight ?
             toc.css('height', tocFixedHeight) :
@@ -81,10 +84,11 @@
             // set target to anchor's "href" attribute
             // Thanks to @https://github.com/xiongchengqing fixed this bug.
             var target = document.getElementById($(this).attr('href').split('#')[1]);
-            console.log(target);
+            // console.log(target);
             // scroll to each target
             $(target).velocity('scroll', {
                 duration: 500,
+                offset: -8,
                 easing: 'ease-in-out'
                 //easing: 'spring'
             });
@@ -169,4 +173,11 @@ function scrollToTop(name, speed) {
             }, speed)
         }
     }
+}
+
+function dynamicInjectHljsStyle() {
+    const $link = $('<link rel="stylesheet">')
+    console.log($link)
+    const href = `/assets/plugins/prism-latest/styles/okaidia.css`
+    $link.appendTo('head').attr({ href })
 }

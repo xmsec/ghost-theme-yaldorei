@@ -2,7 +2,7 @@
     "name": "Yaldorei",
     "description": "A Simple And Elegant Ghost Theme Modified From kaldorei Which Derive From Default Theme Casper",
     "homepage": "https://github.com/xmsec/ghost-theme-yaldorei",
-    "version": "1.1.1",
+    "version": "1.2.0",
     "author": {
         "name": "xmsec",
         "email": "xmdonghao@gmail.com",
@@ -24,7 +24,7 @@
         "ghost-theme"
     ],
     "engines": {
-        "ghost": ">=1.0.0",
+        "ghost": ">=2.0.0",
         "node": ">= 4"
     },
     "license": "MIT",

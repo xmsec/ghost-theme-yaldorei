@@ -8,7 +8,7 @@
 
 <header class="main-header">
     <nav class="container main-nav clearfix">
-        <div class="main-nav-title pull-left">
+        <div class="main-nav__brand">
             <a class="blog-title" href="{{@blog.url}}">{{@blog.title}}</a>
         </div>
         {{#if @blog.navigation}}
@@ -25,7 +25,7 @@
                 <section class="post-meta">
                     <span class="post-meta-item">
                         <i class="fa fa-user"></i>
-                        {{authors}}
+                        {{authors limit="1"}}
                     </span>
                     <span class="post-meta-item">
                         <i class="fa fa-clock-o"></i>
@@ -54,8 +54,8 @@
         <aside class="post-nav">
             {{#prev_post}}
             <span class="post-nav-prev">
-                上一篇
                 <a href="{{url}}">
+                    <i class="fa fa-chevron-left"></i>
                     {{title}}
                 </a>
             </span>
@@ -65,8 +65,8 @@
             <span class="post-nav-next" >
                 <a href="{{url}}">
                     {{title}}
+                    <i class="fa fa-chevron-right"></i>
                 </a>
-                下一篇
             </span>
             {{/next_post}}
         </aside>
