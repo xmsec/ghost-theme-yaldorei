@@ -328,8 +328,11 @@ p, ul, ol, dl {
     text-rendering: geometricPrecision;
     line-height: 1.6;
 }
+p {
+    margin:0 0 10px .25em !important;
+}
 ol, ul {
-    padding-left: 3rem;
+    padding-left: 2.25rem;
 }
 ol ol, ul ul, ul ol, ol ul {
     margin: 0 0 0.4em 0;
