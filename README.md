@@ -12,7 +12,6 @@ Support ghost 2.x
 
 ## About Modified Theme Yaldorei
 
-Modified theme Yaldorei support ghost 1.25.0 & ghost 2.0    
 What is modified is as follows:    
 
 1. The nav's hight
@@ -27,7 +26,7 @@ What is modified is as follows:
 10. Change the data creat_at in posts to changed_at
 11. Update to Kaldorei 2.1.0
 
-Theme name was made since Yaldorei sounds like someone'name Yan DY I met.
+Theme name was named since Yaldorei sounds like someone'name Yan DY I met.
 
 ## How to use
 
