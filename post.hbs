@@ -6,19 +6,10 @@
 {{! Everything inside the #post tags pulls data from the post }}
 {{#post}}
 
-<header class="main-header">
-    <nav class="container main-nav clearfix">
-        <div class="main-nav__brand">
-            <a class="blog-title" href="{{@blog.url}}">{{@blog.title}}</a>
-        </div>
-        {{#if @blog.navigation}}
-            {{navigation}}
-        {{/if}}
-    </nav>
-</header>
+{{> "header"}}
 
 <main id="container" class="container" role="main">
-    <div id="content" class="content col-sm-12 col-md-9 col-lg-9">
+    <div id="content" class="content col-sm-12 col-md-8 col-lg-8">
         <article class="{{post_class}}">
             <header class="post-header">
                 <h1 class="post-title"><a href="{{url}}">{{title}}</a></h1>
@@ -32,10 +23,12 @@
                         <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date timeago="ture"}}</time>
                         <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">({{date format="YYYY-MM-DD"}})</time>
                     </span>
+                    {{#if tags}}
                     <span class="post-meta-item post-meta-tags">
                         <i class="fa fa-tag"></i>
                         {{tags}}
                     </span>
+                    {{/if}}
                     <span class="post-meta-item pull-right">
 
                     </span>
@@ -73,8 +66,6 @@
 
         {{> "comments"}}
     </div>
-    <div id="sidebar" class="sidebar col-md-3 col-lg-3">
-        {{> "toc"}}
-    </div>
+    {{> sidebar}}
 </main>
 {{/post}}
