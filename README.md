@@ -3,7 +3,6 @@ A Simple And Elegant Ghost Theme Yadorei **Modified** From [Kaldorei](https://gi
 
 ![Ghost 2.x](https://img.shields.io/badge/Ghost-v2.x-blue.svg?style=flat-square)
 
-Support ghost 2.x
 # Preview
 ## Former
 ![img](assets/img/preview.png)
@@ -26,7 +25,7 @@ What is modified is as follows:
 10. Change the data creat_at in posts to changed_at
 11. Update to Kaldorei 2.1.0
 
-Theme name was named since Yaldorei sounds like someone'name Yan DY I met.
+Theme name was named since Yaldorei sounds like someone's name Yan DY I met.
 
 ## How to use
 
