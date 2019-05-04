@@ -25,7 +25,9 @@ What is modified is as follows:
 10. Change the data creat_at in posts to changed_at
 11. Update to Kaldorei 2.1.0
 
-Theme name was named since Yaldorei sounds like someone's name Yan DY I met.
+Theme was named since Yaldorei sounds like someone's name Yan DY I met.
+
+简而言之，博客布局进行了简化。
 
 ## How to use
 
