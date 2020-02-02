@@ -14,13 +14,12 @@
   <!-- <link rel="stylesheet" type="text/css" href="//fonts.useso.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" /> -->
   <link rel="stylesheet" type="text/css" href="{{asset "plugins/font-awesome-4.5.0/css/font-awesome.min.css"}}" />
   <link rel="stylesheet" type="text/css" href="{{asset "plugins/bootstrap-3.3.5/css/bootstrap.min.css"}}" />
-  <link rel="stylesheet" type="text/css" href="{{asset "plugins/highlight-latest/styles/monokai-sublime.css"}}" />
+  <link rel="stylesheet" type="text/css" href="{{asset "plugins/highlight-latest/styles/solarized-light.css"}}" />
   {{!-- <link rel="stylesheet" type="text/css" href="{{asset "plugins/prism-latest/styles/coy.css"}}" /> --}}
   <link rel="stylesheet" type="text/css" href="{{asset "plugins/anijs-0.9.3/anicollection.min.css"}}" />
   <link rel="stylesheet" type="text/css" href="{{asset "plugins/fancybox-3.1.25/jquery.fancybox.min.css"}}" />
-  <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
   {{! Ghost outputs important style and meta data with this tag }}
-  
+  <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
   {{ghost_head}}
 </head>
 
@@ -33,9 +32,8 @@
 
     <footer class="site-footer clearfix" style="padding-top: 5px;padding-bottom: 5px;margin-top: 40px;border-top-width: 0px;">
       <div class="footer-meta container">
-        <section class="copyright"><a href="{{@site.url}}">{{@site.title}}</a> &copy; {{date format="YYYY"}}</section>
-        <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a>, Modified Theme <a
-            href="https://github.com/xmsec/ghost-theme-yaldorei">Yaldorei</a></section>
+        <section class="copyright"><a href="{{@site.url}}">{{@site.title}}</a> &copy; {{date format="YYYY"}}, Modified Theme <a href="https://github.com/xmsec/ghost-theme-yaldorei">Yaldorei</a></section>
+        <section class="poweredby"><a href="http://beian.miit.gov.cn">京ICP备16037264号</a></section>
       </div>
     </footer>
 
@@ -51,7 +49,7 @@
   </div>
 
   {{!-- jQuery needs to come before `{{ghost_foot}}` so that jQuery can be used in code injection --}}
-  <script type="text/javascript" src="//cdn.staticfile.org/jquery/1.12.0/jquery.min.js"></script>
+  <script type="text/javascript" src="{{asset "js/jquery-1.12.0.min.js"}}"></script>
   <script type="text/javascript" src="{{asset "js/jquery.fitvids.js"}}"></script>
 
   {{! Ghost outputs important scripts and data with this tag }}

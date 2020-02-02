@@ -68,7 +68,7 @@ Kaldorei提供了简单的归档功能，使用ghost的api来生成归档，预�
 > * 去博客首页看看你的归档吧，Have fun.
 
 ### 🌈 更换代码主题
-Kaldorei使用[highlight.js](https://github.com/isagalaev/highlight.js)实现代码高亮，默认使用的主题风格为 `monokai-sublime`
+Kaldorei使用[highlight.js](https://github.com/isagalaev/highlight.js)实现代码高亮，默认使用的主题风格为 `solarized-light`
 
 > 方法：ghost后台 > `Code Injection` > `Blog Header`
 
@@ -76,8 +76,37 @@ Kaldorei使用[highlight.js](https://github.com/isagalaev/highlight.js)实现代
 <!-- use solarized-light style -->
 <link rel="stylesheet" type="text/css" href="/assets/plugins/highlight-latest/styles/solarized-light.css" />
 ```
+**如发现样式显示异常, 请在源码中替换**
 
 [完整主题列表](https://highlightjs.org/static/demo/)
+
+### 🔢 开启显示代码行号
+
+> 主题版本 3.x 新增
+
+Kaldorei 实现了配置的方式开启显示代码行号，默认是关闭的，支持 `dark` / `light` 两种模式
+
+> 方法：ghost后台 > `Code Injection` > `Blog Header`
+
+```js
+<script>
+  var hljsSettings = {
+    lineNumber: true,  // 可选值 flase / true, 默认为 false
+    mode: 'light'  // 可选值 dark / light，默认为 'dark'
+  };
+</script>
+```
+
+不仅行号可以配置，行号的背景色也可以自定义，默认行号背景色如下：
+
+```html
+<style>
+:root {
+  --linenumber-dark-bg: #282c34;
+  --linenumber-light-bg: #c5d2d9;
+}
+</style>
+```
 
 ### 🔍 搜索功能
 
